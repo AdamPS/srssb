@@ -10,7 +10,7 @@ Developed by [**AlbanyWeb**](http://www.albanyweb.co.uk/).
 Based on [**RRSSB**](https://github.com/kni-labs/rrssb) "Ridiculously Responsive Social Sharing Buttons" by [**KNI**](http://www.kurtnoble.com).
 
 ## Installation instructions
-If you use the Drupal CMS then you can automatically install this library with a [module](https://www.drupal.org/project/rrssb) — see [demo](https://www.albanyweb.co.uk/rrssb-plus).
+If you use the Drupal CMS then you can automatically install this library with a [module](https://www.drupal.org/project/rrssb) — see [demo](https://www.albanyweb.co.uk/rrssb-plus). If you use Backdrop CMS you can install a [module which bundles this library](https://github.com/backdrop-contrib/rrssb) through the Project Installer interface.
 
 Otherwise, you can examine the source of the demo page to see how to do it.  Search for `<div class="rrssb">` to find the HTML for the buttons.  You need to load `rrssb.min.js` and `rrssb.css`.  To configure this library, make a call to `rrssbConfigAll`.
 
@@ -35,4 +35,4 @@ and hard-coded into the page rather than being part of the library.
 
 ## Compatibility changes
 - Compatible with older releases of jQuery - remove specific requirement for jQuery 1.10
-- Designed for integration into CMS such as [Drupal](https://www.drupal.org/project/rrssb).
+- Designed for integration into a CMS such as [Drupal](https://www.drupal.org/project/rrssb) and [Backdrop](https://backdropcms.org/project/rrssb).
